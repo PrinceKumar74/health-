@@ -1,0 +1,428 @@
+/* General Styles */
+body {
+  background-image: url(images/backdrop.png);
+  height: 100%;
+  width: 100%;
+}
+
+.main-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  /* Stack child divs vertically */
+  gap: 40px;
+  /* Space between the child divs */
+  padding: 20px;
+  display: block;
+}
+
+/* First Child: Content on Left and Image on Right */
+.content-left-image-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+}
+
+.content-left-image-right .content,
+.content-left-image-right .image {
+  flex: 1;
+  /* Take equal space */
+}
+
+/* Style for Content */
+.content {
+  margin-left: 5%;
+  width: 45%;
+  margin-top: 5%;
+   padding: 20px;
+   background-color: #fff;
+   border-radius: 10px;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   font-size: 2.5rem;
+   /* Control font size */
+   font-weight: bold;
+   position: relative;
+   color: #a5e5e5;
+   /* Match text color to your design */
+   text-align: left;
+   /* Align text */
+   padding: 20px 40px;
+   /* Padding inside the box */
+   background: linear-gradient(to right, #c9f2eb, #f5f6f6);
+   /* Optional gradient background */
+   border-radius: 18px 0 0 18px;
+}
+.content::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 15px;
+  height: 100%;
+  background-color: #4fbc31; /* Different background for each heading */
+  border-radius: 18px 0 0 18px;
+}
+.content1 {
+  margin-left: 5%;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  position: relative;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-size: 2.5rem;
+  /* Control font size */
+  font-weight: bold;
+  color: #62e0eb;
+  /* Match text color to your design */
+  text-align: left;
+  /* Align text */
+  padding: 20px 30px;
+  /* Padding inside the box */
+  background: linear-gradient(to right, #e6ebb2, #f5f6f6);
+  /* Optional gradient background */
+  border-radius: 18px 0 0 18px;
+}
+.content1::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 15px;
+  height: 100%;
+  background-color: #4fbc31; /* Different background for each heading */
+  border-radius: 18px 0px 0px 18px;
+}
+.content2 {
+  margin-left: 5%;
+ width: 45%;
+ margin-top: 5%;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-size: 2.5rem;
+  /* Control font size */
+  font-weight: bold;
+  position: relative;
+  color: #833c3c;
+  /* Match text color to your design */
+  text-align: left;
+  /* Align text */
+  padding: 20px 40px;
+  /* Padding inside the box */
+  background: linear-gradient(to right, #ea9e9e, #f5f6f6);
+  /* Optional gradient background */
+  border-radius: 18px 0 0 18px;
+}
+.content2::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 15px;
+  height: 100%;
+  background-color: #4fbc31; /* Different background for each heading */
+  border-radius: 18px 0 0 18px;
+}
+
+.content3 {
+  margin-left: 5%;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-size: 2.5rem;
+  /* Control font size */
+  font-weight: bold;
+  position: relative;
+  color: #62e0eb;
+  /* Match text color to your design */
+  text-align: left;
+  /* Align text */
+  padding: 20px 40px;
+  /* Padding inside the box */
+  background: linear-gradient(to right, #c9d5cb, #f5f6f6);
+  border-radius: 18px 0 0 18px;
+}
+.content4 {
+  margin-left: 5%;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-size: 2.5rem;
+  /* Control font size */
+  font-weight: bold;
+  position: relative;
+  color: #98e2ce;
+  /* Match text color to your design */
+  text-align: left;
+  /* Align text */
+  padding: 20px 40px;
+  /* Padding inside the box */
+  background: linear-gradient(to right, #baefda, #f5f6f6);
+  /* Optional gradient background */
+  border-radius: 18px 0 0 18px;
+}
+.content4::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 15px;
+  height: 100%;
+  background-color: #4fbc31; /* Different background for each heading */
+  border-radius: 18px 0 0 18px;
+}
+
+.content5 {
+  margin-left: 5%;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-size: 2.5rem;
+  /* Control font size */
+  font-weight: bold;
+  position: relative;
+  color: #7fbcc1;
+  /* Match text color to your design */
+  text-align: left;
+  /* Align text */
+  padding: 20px 40px;
+  /* Padding inside the box */
+  background: linear-gradient(to right, #b2c2f3, #f5f6f6);
+  /* Optional gradient background */
+}
+.content5::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 15px;
+  height: 100%;
+  background-color: #4fbc31; /* Different background for each heading */
+  border-radius: 18px 0 0 18px;
+}
+.content6 {
+  margin-left: 5%;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-size: 2.5rem;
+  /* Control font size */
+  font-weight: bold;
+  position: relative;
+  color: #f28383;
+  /* Match text color to your design */
+  text-align: left;
+  /* Align text */
+  padding: 20px 40px;
+  /* Padding inside the box */
+  background: linear-gradient(to right, #e7a8a8, #f5f6f6);
+  /* Optional gradient background */
+}
+.content6::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 15px;
+  height: 100%;
+  background-color: #4fbc31; /* Different background for each heading */
+  border-radius: 18px 0 0 18px;
+}
+.content7 {
+  margin-left: 5%;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-size: 2.5rem;
+  /* Control font size */
+  font-weight: bold;
+  position: relative;
+  color: #62eb87;
+  /* Match text color to your design */
+  text-align: left;
+  /* Align text */
+  padding: 20px 40px;
+  /* Padding inside the box */
+  background: linear-gradient(to right, #a3e794, #f5f6f6);
+  /* Optional gradient background */
+}
+.content7::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 15px;
+  height: 100%;
+  background-color: #4fbc31; /* Different background for each heading */
+  border-radius: 18px 0 0 18px;
+}
+p{
+  font-size: 10px;
+  
+}
+.content8 {
+  margin-left: 5%;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-size: 2.5rem;
+  /* Control font size */
+  font-weight: bold;
+  position: relative;
+  color: #c0c313;
+  /* Match text color to your design */
+  text-align: left;
+  /* Align text */
+  padding: 20px 40px;
+  /* Padding inside the box */
+  background: linear-gradient(to right, hsl(57, 71%, 80%), #f5f6f6);
+  /* Optional gradient background */
+}
+
+.content8::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;  
+  width: 15px;
+  height: 100%;
+  background-color: #4fbc31; /* Different background for each heading */
+  border-radius: 18px 0 0 18px;
+}
+
+.content9 {
+  margin-left: 5%;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-size: 2.5rem;
+  /* Control font size */
+  font-weight: bold;
+  position: relative;
+  color: #c9561d;
+  /* Match text color to your design */
+  text-align: left;
+  /* Align text */
+  padding: 20px 40px;
+  /* Padding inside the box */
+  background: linear-gradient(to right, #f07474, #f5f6f6);
+  /* Optional gradient background */
+}
+
+.content9::before { 
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;  
+  width: 15px;
+  height: 100%;
+  background-color: #4fbc31; /* Different background for each heading */
+  border-radius: 18px 0 0 18px;
+}
+
+.content10 {
+  margin-left: 5%;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-size: 2.5rem;
+  /* Control font size */
+  font-weight: bold;
+  position: relative;
+  color: #62e0eb;
+  /* Match text color to your design */
+  text-align: left;
+  /* Align text */
+  padding: 20px 40px;
+  /* Padding inside the box */
+  background: linear-gradient(to right, #88e2dc, #f5f6f6);
+  /* Optional gradient background */
+}
+
+.content10::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;  
+  width: 15px;
+  height: 100%;
+  background-color: #4fbc31; /* Different background for each heading */
+  border-radius: 18px 0 0 18px;
+}
+
+.content h2 {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+/* Style for Image */
+.image img {
+  margin-right: 10%;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  position: relative;
+}
+/* Second Child: Image on Left and Content on Right */
+.image-left-content-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+  margin-right: 10%;
+}
+
+.image-left-content-right .content,
+.image-left-content-right .image {
+  flex: 1;
+  /* Take equal space */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .main-content {
+    flex-direction: column;
+    /* Stack child divs vertically */
+    gap: 15px;
+  }
+
+  .content-left-image-right,
+  .image-left-content-right {
+    flex-direction: column;
+    /* Stack image and content vertically */
+    align-items: center;
+    /* Center content and images */
+    margin-right: 10%;
+  }
+
+  .image-left-content-right .image,
+  .content-left-image-right .image {
+    max-width: 100%;
+    /* Ensure images take full width in small screens */
+    height: 250px;
+    /* Set height for images on smaller screens */
+    object-fit: cover;
+    /* Ensure image is properly cropped and covers the area */
+    margin-right: 10%;
+  }
+
+  .content-left-image-right .content,
+  .image-left-content-right .content {
+    width: 100%;
+    /* Ensure content takes full width */
+     margin-right: 10%;
+  }
+}
+
